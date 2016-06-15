@@ -1,0 +1,25 @@
+{
+  "name": "copy.js",
+  "version": "1.0.0",
+  "description": "Copy files by rules",
+  "main": "copy.js",
+  "scripts": {
+    "start": "node copy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/voyageliu/ZhouMC.git"
+  },
+  "keywords": [
+    "copy", "sync"
+  ],
+  "author": "LiuYue",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "devDependencies": {
+    "fs-extra": "*",
+    "watch": "*",
+    "minimatch": "*",
+    "colors": "*"
+  }
+}

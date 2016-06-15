@@ -1,0 +1,10 @@
+{
+	"watch": "./demo_src",
+	"delay": 1000,
+	"clean": "./demo_dist",
+	"rules": {
+		"*.html": "./demo_dist/templates/",
+		"css/*.css": "./demo_dist/statics/",
+		"js/*.js": "./demo_dist/statics/"
+	}
+}
